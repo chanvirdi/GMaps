@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Find farmers market online</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key="></script>
+	<script type="text/javascript" language="javascript" src="js/maps.js"></script>
+	<script type="text/javascript" language="javascript" src="js/search.js"></script>
+</head>
+<body>
+	<div id="control">
+		<h2>Find Local Farmers Market</h2>
+		<p>We will help you locate nearest farmer market.</p>
+		<form method="get" id="chooseZip">
+			<button type="submit" class="learnButton">Use Current Location</button>
+			<button type="button" id="searchZip" class="learnButton">Search by Zip Code</button>
+			<div class="clear"></div>
+			<div class="zipSearch">
+				<input id="textZip" type="text" name="zip" placeholder="Enter your zip code" autofocus></input>
+				<button type="submit" class="learnButton">Search</button>
+			</div>
+		</form>
+		
+	</div>
+	<div id="map-canvas">
+		
+	</div>
+</body>
+</html>
